@@ -60,11 +60,12 @@ while True:
 
         elif int(user_input) == 2:  # storing the data
             store_data()
+            print("Data stored")
             continue
 
-        elif int(user_input) == 3:  # Save Data to File
+        elif int(user_input) == 3:  # load Data to File
             load_data()
-            print("Data Saved!")
+            print("Data loaded!")
             continue  # to show the menu
 
         elif int(user_input) == 4:  # Exit Program
