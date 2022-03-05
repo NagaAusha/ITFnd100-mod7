@@ -22,7 +22,7 @@ And also, I found this article helpful  in the process of understanding how exac
  
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%2012.01.10%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%2012.01.10%20AM.png)
 
 Picture 1: Code for Exception handling 
 
@@ -31,7 +31,7 @@ Picture 1: Code for Exception handling
 In the above program I asked user to enter the name of the file if the entered file is not there then ‘FileNotFound’ exception will be raised, if user enter the name of the file as a number, then ‘Value Error’ Exception will be raised below is the result when I run the program. 
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%2012.02.26%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%2012.02.26%20AM.png)
 Picture 2:  FileNotFound error  
 
  
@@ -43,7 +43,7 @@ Picture 2:  FileNotFound error
 Pickling is used to save the data in to Binary form instead of a plain text to use pickle in your program we need to import it by using “import” keyword. In another words Pickling is a way to convert (list, dict, etc.) into a character stream.  I found this article helpful for me to understand more about Pickling and how does that work.  https://www.geeksforgeeks.org/understanding-python-pickling-example/ (External Link).  Below is the example of pickling  
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%2012.43.13%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%2012.43.13%20AM.png)
 Picture 3: Python Pickling. 
 
  
@@ -51,7 +51,7 @@ Picture 3: Python Pickling.
 In the above program I displayed the four menu options to choose and perform the operation such add the data, load the data, save the data and exit the program. I started of importing the pickle that which imports the code from another file, the entered data was captured and then opens up the file   open (“file_name”, “ab”) and then use pickle. Load () to load the data. If the user chooses option1 data will be added or continue to choose another option until user exits the program. Check image below for the result. 
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%2012.40.14%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%2012.40.14%20AM.png)
 Picture 4: Data store in binary format 
 
  
@@ -63,13 +63,13 @@ I created a simple program storing the data to a binary file with exception hand
  
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%201.51.14%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%201.51.14%20AM.png)
 Picture 5: Code for Pickling with error handling. 
 
 Below are the Pictures of the result  
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%201.48.07%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%201.48.07%20AM.png)
 Picture 6: ValueError exception raised. 
 
  
@@ -77,14 +77,14 @@ Picture 6: ValueError exception raised.
  
 
  
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%202.00.20%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%202.00.20%20AM.png)
 Picture 7: adds the data to file 
 
  
 
 I also ran the same program in terminal window for the results refer picture below. 
 
-![](https://github.com/NagaAusha/ITFnd100-mod7/blob/main/docs/Screen%20Shot%202022-03-02%20at%201.23.26%20AM.png)
+![](./Screen%20Shot%202022-03-02%20at%201.23.26%20AM.png)
 Picture 8: Result in terminal
 
  
