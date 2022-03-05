@@ -63,7 +63,7 @@ while True:
             print("Data stored")
             continue
 
-        elif int(user_input) == 3:  # load Data to File
+        elif int(user_input) == 3:  # load Data from File
             load_data()
             print("Data loaded!")
             continue  # to show the menu
