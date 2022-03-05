@@ -33,13 +33,13 @@ def add_data():
 
 
 def store_data():
-    objfile = open("file_name", "ab")
+    objfile = open("datafile", "wb")
     pickle.dump(data_list, objfile)      # Stores the data with pickle.dump
     objfile.close()
 
 
 def load_data():
-    obj_file = open("file_name", "rb")
+    obj_file = open("datafile", "rb")
     objfiledata = pickle.load(obj_file)  # loads the data with pickle.load method
     obj_file.close()
     print(objfiledata)
