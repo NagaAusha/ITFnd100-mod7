@@ -54,7 +54,7 @@ while True:
         print("Data stored")
         continue
 
-    elif user_input == '3':  # Save/load Data to File
+    elif user_input == '3':  # load Data from File
         load_data()
         print("Data loaded!")
         continue  # to show the menu
