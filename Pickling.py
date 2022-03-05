@@ -29,7 +29,7 @@ def add_data():
 
 
 def store_data():
-    objfile = open("file_name", "ab")
+    objfile = open("file_name", "wb")
     pickle.dump(data_list, objfile)    # Storing the data with pickle.dump method
     objfile.close()
 
@@ -51,11 +51,12 @@ while True:
 
     elif user_input == '2':  # storing the data
         store_data()
+        print("Data stored")
         continue
 
-    elif user_input == '3':  # Save Data to File
+    elif user_input == '3':  # Save/load Data to File
         load_data()
-        print("Data Saved!")
+        print("Data loaded!")
         continue  # to show the menu
 
     elif user_input == '4':  # Exit Program
