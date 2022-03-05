@@ -7,7 +7,7 @@ Python Script Assignment 7
 GitHub Repository Link:  https://github.com/NagaAusha/ITFnd100-mod7
 
 
-   # Exception Handling and Python Pickling 
+# Exception Handling and Python Pickling 
 
 ## Introduction 
 
@@ -18,8 +18,6 @@ In this assignment, I’m going to explain the steps that I have used to create 
 When we run a program, we might get some errors as a result of that program may break. To continue the flow of the program without breaking we will use “Exception”. Python has many built-in exceptions that are raised when your program encounters an error.  If the program contains a code that may throw the exception, we must place that code in the try block. The try block must be followed with the except statement, which contains a block of code that will be executed if there is some exception in the try block. Exception might be a single one or multiple below is the example for exception handling. (Picture 1) 
 
 And also, I found this article helpful  in the process of understanding how exactly exceptions are used  https://www.programiz.com/python-programming/exception-handling  (External Link). 
-
- 
 
  
 ![](./Screen%20Shot%202022-03-02%20at%2012.01.10%20AM.png)
@@ -33,8 +31,6 @@ In the above program I asked user to enter the name of the file if the entered f
  
 ![](./Screen%20Shot%202022-03-02%20at%2012.02.26%20AM.png)
 Picture 2:  FileNotFound error  
-
- 
 
  
 
@@ -71,10 +67,6 @@ Below are the Pictures of the result
  
 ![](./Screen%20Shot%202022-03-02%20at%201.48.07%20AM.png)
 Picture 6: ValueError exception raised. 
-
- 
-
- 
 
  
 ![](./Screen%20Shot%202022-03-02%20at%202.00.20%20AM.png)
